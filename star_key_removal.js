@@ -14,8 +14,6 @@ let data = {
       }
   }
 }
-let finalObj = {};
-let temp;
 function constructObj(data, finalObj) {
    for(let a in data) {
       if(a === '*') {
