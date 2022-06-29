@@ -21,7 +21,7 @@ function hToLelements(arr) {
         }
     });
 
-    const sortable = Object.fromEntries(Object.entries(maxSpeed).sort(([,a],[,b]) => a-b));
+    const sortable = Object.fromEntries(Object.entries(obj).sort(([,a],[,b]) => a-b));
     return Object.keys(sortable)
 }
 hToLelements(arr);
